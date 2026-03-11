@@ -1,0 +1,21 @@
+gcc pswd.c -o pswd -lraylib -lGL -lm -lpthread -ldl -lrt -lX11         --- creation du fichier exe
+
+sudo apt install xclip  --- pour la gestion des copie
+
+installa bibliotheque graphique et depandance openGL: sudo apt install libgl1-mesa-dev libglu1-mesa-dev
+
+
+installation de raylib: # On suppose que tu es dans le dossier extrait de Raylib
+# Copie du header (le fichier .h)
+sudo cp include/raylib.h /usr/local/include/
+
+# Copie des bibliothèques (les fichiers .a ou .so)
+sudo cp lib/libraylib* /usr/local/lib/
+
+
+
+--- python
+
+
+pip install pyinstaller
+pyinstaller --onefile --windowed --name crypteur_final script.py
