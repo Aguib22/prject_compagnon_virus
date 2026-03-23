@@ -19,3 +19,14 @@ sudo cp lib/libraylib* /usr/local/lib/
 
 pip install pyinstaller
 pyinstaller --onefile --windowed --name crypteur_final script.py
+
+
+
+
+
+
+
+
+
+
+
