@@ -49,7 +49,7 @@ void jouer() {
             printf("=========================================================\n");
             printf("||                                                     ||\n");
             printf("||             ** ECHEC ! **              ||\n");
-            printf("||desolé, vous avez dépassé le nombre maximum d'essais.||\n", randnum);
+            printf("||desolé, vous avez dépassé le nombre maximum d'essais.||\n");
             printf("||             Le nombre était : %d.                   ||\n", randnum);
             printf("=========================================================\n");
             break;
